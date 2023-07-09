@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=devive-width, initial-scale=1.0">
+        <title>my school website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.mon.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/4.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>We the mountmakalu family like to welcome you all to our school website.We are located in magargaun of lalitpur district.Our school was established in 1990.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+              
+
+            </div>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        fucntion showMenu(){
+            navLinks.style.right = "0";
+        }
+        fucntion hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
